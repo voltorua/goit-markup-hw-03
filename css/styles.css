@@ -130,17 +130,111 @@ a {
 .features-item {
     background-color: #ffffff;
 }
-.portfolio-item {
+.portfolio-section {
     background-color: #ffffff;
 }
+
+.portfolio-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.portfolio-item {
+    width: 360px;
+    background-color: #ffffff;
+
+}
+
 .card-title {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+    
+        /* line-height: 24px; */
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.card-text {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455; 
+}
+.team-section {
+    background-color: #c7c4bf;
+    /* cloud */
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-title {
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+    
+        /* line-height: 40px; */
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 0 156px;
+}
+
+.team-card {
+    width: 264px;
+    height: 380px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 16px;
+    box-sizing: border-box;
+}
+
+.team-card img {
+    width: 264px;
+    height: 260px;
+    object-fit: cover;
+    margin-bottom: 32px;
+}
+
+.team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
-.card-text {
+
+.team-role {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
