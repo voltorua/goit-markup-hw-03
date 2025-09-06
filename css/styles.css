@@ -219,20 +219,11 @@ ul {
     overflow: hidden;
 }
 
-/* Team */
+/* ТРЕТЯ СЕКЦІЯ */
 .team-section {
     background-color: #f4f4fd;
-}
-
-.section-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-    font-weight: 700;
-    margin-bottom: 72px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-list {
@@ -244,30 +235,43 @@ ul {
 .team-card {
     background-color: #ffffff;
     text-align: center;
+    border-radius: 0 0 4px 4px;
+    /* ✅ заокруглення нижніх кутів */
 }
 
 .team-card img {
     object-fit: cover;
-    margin-bottom: 32px;
+    display: block;
+    width: 100%;
 }
 
-.team-name {
+.card-info {
+    padding: 32px 0;
+    /* ✅ відступи зверху і знизу */
+}
+
+.card-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    /* ✅ вирівнювання */
     margin-bottom: 8px;
+    /* ✅ відступ до параграфа */
 }
 
-.team-role {
+.card-role {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
+    /* ✅ вирівнювання */
 }
 
-/* Portfolio */
+/* ЧЕТВЕРТА СЕКЦІЯ */
 .portfolio-section {
     background-color: #ffffff;
 }
