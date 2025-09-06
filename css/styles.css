@@ -69,20 +69,21 @@ a {
 .footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #fff}
+    color: #fff;
+}
 .hero-title {
      font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #fff
+    color: #fff;
  }
  .hero-button {
      background-color: #4d5ae5;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff
+    color: #fff;
     cursor: pointer;
 }
 .hero-button:hover,
@@ -132,7 +133,6 @@ justify-content: space-between;
 .team-card {
 
 background-color: #ffffff;
-/* ✅ фон картки */
 text-align: center;
 }           
 .team-card img {
@@ -198,4 +198,50 @@ color: #434455;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.portfolio-item {
+    border-bottom: 1px solid #e7e9fc;
+}
+.nav-list,
+.contacts-list,
+.team-list,
+.portfolio-list {
+    display: flex;
+    gap: 24px;
+   
 }
